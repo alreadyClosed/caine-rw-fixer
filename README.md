@@ -1,6 +1,8 @@
 # caine rw fixer
  
 Fixes CAINE Linux booting into read-only mode on persistent dual-boot installations, preventing the desktop environment from loading.
+
+(TESTED ONLY ON CAINE 13)
  
 ## Usage
  
