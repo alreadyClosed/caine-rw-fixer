@@ -23,5 +23,20 @@ Or if you have internet access:
 curl -fsSL https://raw.githubusercontent.com/alreadyClosed/caine-rw-fixer/refs/heads/main/caine_rw_fixer.sh | sudo bash
 ```
 
+> ⚠️ **Warning:** The script will reboot your system when done.
+
+# Internet troubleshooting
+
+If you get the "failure adding connection settings plugin does not support adding connections" error then run:
+
+```
+cat /etc/NetworkManager/NetworkManager.conf | grep managed
+```
+if it says "managed=false" then edit it and change it to true:
+
+```
+sudo nano /etc/NetworkManager/NetworkManager.conf
+```
+
 The system will reboot automatically when done.
  
