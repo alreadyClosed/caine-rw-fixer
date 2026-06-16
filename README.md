@@ -27,7 +27,7 @@ curl -fsSL https://raw.githubusercontent.com/alreadyClosed/caine-rw-fixer/refs/h
 
 > ⚠️ **Warning:** The script will reboot your system when done.
 
-# Internet troubleshooting
+# Internet troubleshooting (Wifi specific)
 
 If you get the "failure adding connection settings plugin does not support adding connections" error then run:
 
